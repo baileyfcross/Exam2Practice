@@ -50,7 +50,7 @@ public class Snowman extends Thread {
         newD *= 0.75;
         if(newD > 50)
         {
-            recursiveSnowman(x + newD / 8,y - newD,newD,g);
+            recursiveSnowman(x + d / 8,y - newD,newD,g);
         }
 
     }
